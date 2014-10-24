@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <ApiVersion>4</ApiVersion>
+  <Id>dk.bladre.OrderNotes</Id>
+  <Version>0.02</Version>
+  <Author>aklt [anders AT bladre.dk]</Author>
+  <Name>OrderNotes</Name>
+  <Category>PatternEditor</Category>
+  <Description>Order notes in columns ascendingly according to key and octave.
+
+      Everything in a note column (note, instrument, volume, panning and delay) 
+      up to and including note offs is moved along with the note.
+
+      After sorting the track columns are contracted.
+
+      To use this tool assign OrderNotes it to a key in Edit -> Preferences -> Keys
+      and press this key to order notes in the current track in the song.
+  </Description>
+  <Homepage>http://www.bladre.dk/download</Homepage>
+</RenoiseScriptingTool>
