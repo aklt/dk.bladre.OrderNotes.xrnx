@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RenoiseScriptingTool doc_version="0">
-  <ApiVersion>4</ApiVersion>
+  <ApiVersion>5</ApiVersion>
   <Id>dk.bladre.OrderNotes</Id>
-  <Version>0.10</Version>
+  <Version>0.11</Version>
   <Author>aklt [anders AT bladre.dk]</Author>
   <Name>OrderNotes</Name>
   <Category>PatternEditor</Category>
   <Description>Order notes in columns ascendingly according to key and octave.
 
-      Everything in a note column (note, instrument, volume, panning and delay) 
+      Everything in a note column (note, instrument, volume, panning and delay)
 	  up to and including note offs is moved along with the note.  Also dangling
 	  values in note columns are removed.
 
